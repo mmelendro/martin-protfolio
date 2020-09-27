@@ -3,32 +3,52 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #444444;
 }
 
-nav li{
+/*Gradient*/
+.navbar-right {
+    border-radius: 13px 22px 13px 22px;
+    background: linear-gradient(180deg, rgba(211,222,233,1) 0%, rgba(213,225,237,1) 15%, rgba(238,243,249,1) 49%, rgba(213,225,237,1) 85%, rgba(211,222,233,1) 100%);
+}
+nav li {
     float: right;
-    border-right: 1px solid #4c4ccf;
 }
 
-nav li:last-child {
-    border-right:none;
-}
-
-nav li a {
+/*change nav li to class called .link-item*/
+.link-item {
     display: block;
-    color: #fff;
+    color: #708090;
+    font-weight: 100;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none!important;
-
+    padding: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-nav li a:hover{
-    background-color: #111 ;
-    color:#f2f2f2;
+/*change color of .link-item:hover*/
+.link-item:hover{
+    opacity: 0.66;
+    color:#708090;
 }
 
-nav .active {
-    background-color: #4CAF50;
+nav .active{
+    opacity: 0.5;
+}
+
+.navbar-logo {
+    float: left;
+    font-family:'Source Sans Pro', sans-serif;
+    padding: 10px; 
+}
+
+.logo {
+     color:black;
+     opacity: 0.66;
+     font-size: 2.0em;
+     text-decoration: none!important;
+}
+
+.logo:hover{
+    opacity: 0.33;
+    color: black;
 }
