@@ -3,13 +3,16 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    
 }
 
 /*Gradient*/
 .navbar-right {
     border-radius: 13px 22px 13px 22px;
-    background: linear-gradient(180deg, rgba(211,222,233,1) 0%, rgba(213,225,237,1) 15%, rgba(238,243,249,1) 49%, rgba(213,225,237,1) 85%, rgba(211,222,233,1) 100%);
+    background: linear-gradient(180deg, rgb(222, 229, 236) 0%, rgb(231, 236, 241) 15%, rgb(255, 255, 255) 49%, rgb(231, 234, 238) 85%, rgb(227, 234, 241) 100%);
 }
+
+
 nav li {
     float: right;
 }
@@ -39,11 +42,12 @@ nav .active{
     float: left;
     font-family:'Source Sans Pro', sans-serif;
     padding: 10px; 
+    margin-left: 20px;
 }
 
 .logo {
      color:black;
-     opacity: 0.66;
+     opacity: 0.95;
      font-size: 2.0em;
      text-decoration: none!important;
 }
